@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+header{
+background-color: darkgrey;
+}
+
+nav {
+  width: 960px;
+  margin:.5rem auto;
+  display:flex;
+  
+}
+ul {
+display: flex; 
+margin: 30px;
+align-items: center;
+align-items: space-between;
+
+
+
+ 
+}
+
+main{
+  width: 960px;
+  margin: 30px auto 0 auto;
+  /*this means top right bottom left */
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+main img{
+  margin-bottom: 30px;
+  background-color: black;
+}
+article{
+  width: 450px;
+}
+article section{
+  height: 320px;
+  overflow: auto;
+}
