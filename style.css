@@ -24,7 +24,6 @@ width:100%;
 }
 a {
   color: gray;
-  
 }
 
 
@@ -48,11 +47,24 @@ article{
 }
 
 article section{
-  height: 320px;
+  height: 365px; 
   overflow: auto;
+  
+}
+article a{
+   border: 1px solid black; 
+  text-decoration: none;
+  padding: 2px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: black;
+  color: white;
+}
+a:hover{
+  color: pink;
 }
 
 footer{
-  background-color: black;
-  height: 50px;
+  background-color: rgb(67, 65, 65);
+  height: 110px;
 }
