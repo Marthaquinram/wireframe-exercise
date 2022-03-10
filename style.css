@@ -3,25 +3,30 @@
 }
 
 header{
-background-color: darkgrey;
+background-color: rgb(67, 65, 65);
+ 
 }
+ /* html * { this allows me to see the box borders which help me target specific boxes.
+  border: solid black 1px;
+}   */
 
 nav {
   width: 960px;
   margin:.5rem auto;
   display:flex;
-  
 }
+
 ul {
 display: flex; 
 margin: 30px;
-align-items: center;
-align-items: space-between;
-
-
-
- 
+justify-content: space-between;
+width:100%;
 }
+a {
+  color: gray;
+  
+}
+
 
 main{
   width: 960px;
@@ -39,8 +44,15 @@ main img{
 }
 article{
   width: 450px;
+  height: 400px;
 }
+
 article section{
   height: 320px;
   overflow: auto;
+}
+
+footer{
+  background-color: black;
+  height: 50px;
 }
